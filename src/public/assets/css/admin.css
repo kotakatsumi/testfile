@@ -1,0 +1,252 @@
+* {
+    color: #deb887;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page-title {
+    display: block;
+    text-align: center;
+}
+
+.logout {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    color: #deb887;
+    text-decoration: none;
+    border: solid 1px #deb887;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.name-email {
+    width: 30%;
+    display: flex;
+}
+
+.name_email_search {
+    width: 300px;
+}
+
+.name_email_search,
+.gender_search,
+.category_search {
+    outline: none;
+    border: 1px solid #c0c0c0;
+    padding: 10px 30px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.date_search {
+    outline: none;
+    border: 1px solid #c0c0c0;
+    padding: 10px 30px;
+}
+
+.gender_search,
+.category_search,
+.date_search {
+    background: #f5f5f5;
+}
+
+.gender,
+.category_id,
+.date {
+    position: relative;
+}
+
+.gender::before,
+.category_id::before,
+.date::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #c0c0c0 transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.contacts-table {
+    border-collapse: collapse;
+}
+
+.contacts-database {
+    width: 100%;
+}
+
+.contacts-database {
+    border: solid 1px #c0c0c0;
+}
+
+.column-title {
+    text-align: left;
+    background: #a0522d;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.fullname_get,
+.gender_get,
+.email_get,
+.category_get {
+    padding: 10px 30px;
+    border-bottom: solid 1px #c0c0c0;
+}
+
+.above-table {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.export {
+    outline: none;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border: solid 1px #c0c0c0;
+}
+
+.flex-1,
+.pagination-link p {
+    display: none;
+}
+
+.pagination-link a,
+span[aria-current="page"],
+span[aria-label="&laquo;"] {
+    text-decoration: none;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding: 3px;
+    border: solid 1px #deb887;
+}
+
+svg {
+    width: 15px;
+    height: 24px;
+}
+
+.shadow-sm {
+    display: flex;
+    align-items: center;
+}
+
+span[aria-current="page"] {
+    background: #deb887;
+}
+
+span[aria-current="page"] span {
+    color: #fff;
+}
+
+.search-button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.detail_get {
+    width: 80px;
+    padding: 10px 15px;
+    border-bottom: solid 1px #c0c0c0;
+}
+
+.show-detail {
+    padding: 5px 10px;
+    margin: 0 auto;
+    outline: none;
+    background: #f5f5f5;
+    color: #deb887;
+    border: solid 1px #deb887;
+    text-align: center;
+}
+
+.reset {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.reset-link {
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background: #8b4513;
+    height: unset;
+}
+
+.hidden-area {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 60px;
+    background: #c0c0c0;
+}
+
+.close-button {
+    color: #fff;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.line-title {
+    text-align: left;
+    width: 250px;
+    color: #fff;
+}
+
+.detail-title {
+    vertical-align: top;
+    color: #fff;
+}
+
+.modal-cell {
+    width: 350px;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.detail-text-modal {
+    outline: none;
+    resize: none;
+    border: none;
+    background: transparent;
+    font-family: sans-serif;
+}
+
+.delete-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.delete-button {
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    outline: none;
+    border: solid 1px #fff;
+}

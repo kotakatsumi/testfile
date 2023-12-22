@@ -1,0 +1,30 @@
+.body-area {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-area {
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid black;
+    background: #fff;
+}
+
+.header-title {
+    font-size: 25px;
+    color: black;
+}
+
+.link-area {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 15px;
+}
+
+.main-area {
+    padding: 30px 50px;
+}

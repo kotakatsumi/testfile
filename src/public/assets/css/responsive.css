@@ -1,0 +1,27 @@
+@media screen and (max-width:1325px) {
+    .show-detail {
+        padding: 5px;
+    }
+
+    .detail_get {
+        padding: 15px 10px;
+    }
+
+    .gender_get {
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contact-area {
+        width: 850px;
+    }
+
+    .index-table {
+        width: 800px;
+    }
+
+    .container {
+        width: 900px;
+    }
+}
